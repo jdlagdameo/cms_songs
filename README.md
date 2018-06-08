@@ -23,8 +23,10 @@ To run the project, use the artisan serve command
 $ php artisan serve
 ```
 After the command execute, go to the localhost:8000.
+
+If problem occurs during php artisan server, dump the composer autoload.
 ```sh
-$ gulp build dist --prod
+$ composer dump-autoload
 ```
 
 License
