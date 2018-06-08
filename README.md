@@ -24,7 +24,7 @@ $ php artisan serve
 ```
 After the command execute, go to the localhost:8000.
 
-If problem occurs during php artisan server, dump the composer autoload.
+If problem occurs during php artisan serve, dump the composer autoload.
 ```sh
 $ composer dump-autoload
 ```
